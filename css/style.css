@@ -2,7 +2,9 @@ body{
 	margin:0px;
 	padding:0px;
 }
-
+a{
+	text-decoration: none;
+}
 @font-face {
     font-family: 'PlayFairRegular';
     src: url('../font/PlayfairDisplay-Regular.ttf');
@@ -116,4 +118,90 @@ body{
 	display: block;
 	height:0px;
 	margin-top:50px;
+}
+#sign_up{
+	position: absolute;
+	top:2400px;
+	width: 100%;
+	height:285px;
+	background-color: #f0f0f0;
+}
+#sign_up p{
+	font-size: 25pt;
+	text-align: center;
+	margin-top:76px;
+}
+#sign_up input{
+	width:400px;
+	font-size: 14pt;
+	padding-left: 0px;
+	background-color: #f0f0f0;
+	border: 0px;
+	border-bottom: 1.5px solid;
+	background: url(../img/uk.png) no-repeat 368px 4px;
+	padding-bottom: 4px;
+	color: #6f6f6f;
+	margin:45px 0 0 402px;
+}
+#two_column_block2{
+	width:100%;
+	position: absolute;
+	top:2685px;
+}
+#two_column_block2 .item{
+	margin-top:104px;
+}
+.clear{
+	clear: left;
+}
+#two_column_block2 a{
+  display: block;
+  text-align: center;
+  width: 169px;
+  height:61px;
+  margin:233px auto;
+  border:1px solid;
+  font-size: 20pt;
+  text-decoration: none;
+  color:#626262;
+  box-sizing: border-box;
+  padding-top:11px;
+  margin-bottom: 0px;
+}
+#footer{
+	width: 100%;
+	height:100px;
+	position: absolute;
+	top:3569px;
+	background-color: #f0f0f0;
+}
+#mn_footer,#social_footer{
+width: 50%;
+height:100px;
+box-sizing: border-box;
+}
+#mn_footer{
+	float:left;
+}
+#social_footer{
+	float:right;
+}
+#mn_footer ul{
+	margin:50px 0 0 90px;
+}
+#mn_footer ul li{
+ display: inline-block;
+ margin-left: 10px;
+}
+#mn_footer a{
+	color:#3d3d3d;
+}
+#social_footer ul{
+	float:right;
+	margin:40px 71px 0 0;
+}
+#social_footer ul li{
+ display:inline-block;
+ margin-right:15px;
+ color:#3d3d3d;
 }
